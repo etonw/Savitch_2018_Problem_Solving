@@ -1,5 +1,5 @@
 /*
-1_3_project_calculate_cents_value.cpp
+project_1_3_calculate_cents_value.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
