@@ -1,5 +1,5 @@
 /*
-project_2_1_artificial_sweetner
+project_2_1_artificial_sweetner.cpp
 
 Book:
     Savitch_2018_Problem Soving with C++
