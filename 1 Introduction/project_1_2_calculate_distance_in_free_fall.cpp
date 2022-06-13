@@ -1,5 +1,5 @@
 /*
-1_3_project_calculate_distance_in_free_fall.cpp
+project_1_2_calculate_distance_in_free_fall.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
