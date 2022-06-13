@@ -1,5 +1,5 @@
 /*
-practice_2_1_breakfast_cereal_ounces_to_tons.cpp
+practice_2_1_breakfast_cereal_conversion.cpp
 
 Book:
     Savitch_2018_Problem Soving with C++
