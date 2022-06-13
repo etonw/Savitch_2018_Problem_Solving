@@ -1,5 +1,5 @@
 /*
-1_3_add_numbers.cpp
+practice_1_3_add_numbers.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
