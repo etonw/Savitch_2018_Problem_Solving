@@ -1,6 +1,6 @@
 /*
 
-self_test_6_variables_not_declared.cpp
+self_test_2_6_variables_not_declared.cpp
 Savitch
 p.82
 
