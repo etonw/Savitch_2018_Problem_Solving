@@ -1,9 +1,9 @@
 /*
-1_4_subtract_numbers_investigate_error.cpp
+practice_1_4_subtract_numbers_investigate_error.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
-
+p 67
 
 Modify the C++ program you wrote in Practice Problem 3. 
 
