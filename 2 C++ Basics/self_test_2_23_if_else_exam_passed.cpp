@@ -1,5 +1,5 @@
 /*
-self_test_23_if_else_exam_passed.cpp
+self_test_2_23_if_else_exam_passed.cpp
 
 Savitch_2018_Problem Soving with C++
 2 C++ Basics
