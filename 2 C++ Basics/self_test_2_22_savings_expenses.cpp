@@ -1,6 +1,6 @@
 /*
 
-self_test_22_savings_expenses.cpp
+self_test_2_22_savings_expenses.cpp
 
 Savitch_2018_Problem Soving with C++
 2 C++ Basics
