@@ -1,5 +1,5 @@
 /*
-1_2_project_print_out_c_s.cpp
+project_1_2_print_out_c_s.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
