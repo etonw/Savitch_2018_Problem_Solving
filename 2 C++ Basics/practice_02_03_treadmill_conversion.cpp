@@ -1,5 +1,5 @@
 /*
-practice_2_3_treadmill_conversion.cpp
+practice_02_03_treadmill_conversion.cpp
 Book:
     Savitch_2018_Problem Soving with C++
     2 C++ Basics
