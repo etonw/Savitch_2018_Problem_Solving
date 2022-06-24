@@ -1,5 +1,5 @@
 /*
-project_2_1_artificial_sweetner.cpp
+project_02_01_artificial_sweetner
 
 Book:
     Savitch_2018_Problem Soving with C++
@@ -49,17 +49,17 @@ void setDecimalPlaces();
 
 //initialize global variables and CONSTANTS
 
-
 int main() 
 {
 	// initialize variables
 char REPEAT;  //User inputs this to determine a repeat of the program
 const double GRAMS_IN_A_POUND = 454;
 const double CAN_MASS = 350;
-const double PERCENT_SWEETNER_IN_CAN = 0.001;
-double mass_of_mouse (0);  
+const double PERCENT_SWEETNER_PER_CAN = 0.001;
+double mouse_mass (0);  
 double mass_artifical_sweetner_to_kill_mouse(0);
-double dieter_current_weight(0);
+double dieter_weight(0);
+double dieter_mass(0);    
     
     // Start and Program description
 	cout << "\n\t\t\t\t\t\t\t= BEGIN PROGRAM =\n" << endl;
@@ -71,29 +71,61 @@ double dieter_current_weight(0);
     do{ //runs repeatedly
         // prompt for input
         cout << "\n\n\t\t\t\t\t\t\t\t= NEW INPUT =\n" << endl;
+        
         cout << "\n What is the mass of the test mouse? ";
-        mass_of_mouse = input_double();
+        mouse_mass = input_double();
+        
         cout << "\n What is the mass of the artificial sweetner needed to kill the mouse? ";
         mass_artifical_sweetner_to_kill_mouse = input_double();
-        cout << "\n What is the mass of the dieter ? ";
-        dieter_current_weight = input_double();      
+        
+        cout << "\n What will be the weight in pounds of the dieter when he stops dieting? ";
+        dieter_weight = input_double();      
         
         // Echo input
         cout << "\n\n\t\tYou entered: \n\nMass_of_mouse " 
-             << mass_of_mouse 
+             << mouse_mass 
+            
              << "\n\nMass of the artificial sweetner needed to kill the mouse :" 
              << mass_artifical_sweetner_to_kill_mouse 
-             << "\n\nMass of the dieter: "
-             << dieter_current_weight; 
+            
+             << "\n\nWeight of the dieter when stops dieting: "
+             << dieter_weight; 
+
         
          // Calculation
-        double mass_sweetner_in_one_can = CAN_MASS * PERCENT_SWEETNER_IN_CAN;  // = 0.35
-        double lethal_proportion_to_per_unit_mass = mass_artifical_sweetner_to_kill_mouse / mass_of_mouse;
-        double max_sweetner_dieter_can_ingest = lethal_proportion_to_per_unit_mass * dieter_current_weight; // = 6485.7142
-        double number_of_cans_lethal = max_sweetner_dieter_can_ingest / mass_sweetner_in_one_can;   
 
-        cout << "\n\n\t\tNumber of cans of soda that can be safely ingested : " 
+        dieter_mass = dieter_weight * GRAMS_IN_A_POUND;   // 45400 g
+        
+        double mass_sweetner_in_one_can = CAN_MASS * PERCENT_SWEETNER_PER_CAN;  // = 0.35 g
+      
+        double lethal_proportion_per_unit_mass = mass_artifical_sweetner_to_kill_mouse / mouse_mass;   // 0.142857
+        
+        double max_mass_sweetner_dieter_can_ingest = lethal_proportion_per_unit_mass * dieter_mass; // = 6485.7142 g
+        
+        double number_of_cans_lethal = max_mass_sweetner_dieter_can_ingest / mass_sweetner_in_one_can;   
+        
+        cout << "\n\nALL CALCULATIONS: ";
+        
+        cout << "\n\nmass of the dieter: "
+             << dieter_mass;
+
+        cout << "\n\nmass_sweetner_in_one_can: "
+             << mass_sweetner_in_one_can;
+
+        cout << "\n\nlethal_proportion_to_per_unit_mass: "
+             << lethal_proportion_per_unit_mass;
+        
+        cout << "\n\nmax_mass_sweetner_dieter_can_ingest: "
+             << max_mass_sweetner_dieter_can_ingest; 
+
+        cout << "\n\nANS: number_of_cans_lethal: "
+             << number_of_cans_lethal; 
+        
+        cout << "\n\n\t\tANS: The number of cans of soda that can be safely ingested is : " 
              << floor(number_of_cans_lethal)
+             << " when the dieter is at weight = "
+             << dieter_weight
+             << " pounds."
              << endl;
 
             
@@ -135,6 +167,3 @@ char repeat_query()
    std::cin >> ans; 
    return ans;
 }
-
-
-
