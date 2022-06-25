@@ -1,5 +1,5 @@
 /*
-project_2_5_net_pay_after_deductables.cpp
+project_02_06_net_pay_after_deductables.cpp
 
      AUTHOR :  Eton C. Williams
        DATE :  21 June 2022
