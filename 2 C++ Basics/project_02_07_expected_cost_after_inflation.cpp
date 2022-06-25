@@ -4,7 +4,7 @@ project_02_07_expected_cost_after_inflation.cpp
      AUTHOR :  Eton C. Williams
        DATE :  25 June 2022
        BOOK :  Savitch_2018_Problem Soving with C++
-               Chapter 3: More Flow Of Control
+               Chapter 2: C++ Basics
                p 136           
 
 REQUIREMENTS:
