@@ -1,5 +1,5 @@
 /*
-program_2_14_calculate_seconds_since_midnight.cpp
+program_02_14_calculate_seconds_since_midnight.cpp
 
 Book:
     Savitch_2018_Problem Soving with C++
