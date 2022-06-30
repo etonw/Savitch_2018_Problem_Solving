@@ -1,5 +1,5 @@
 /*
-practice_1_2_favorite_number.cpp
+practice_01_02_favorite_number.cpp
 
 Savitch_2018_Problem Solving with C++
 Chapter 1 Introduction to Computers and C++ Programming  
