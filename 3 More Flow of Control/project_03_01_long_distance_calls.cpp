@@ -1,11 +1,11 @@
 /*
-project_01_01_long_distance_calls.cpp
+project_03_01_long_distance_calls.cpp
 
      AUTHOR :  Eton C. Williams
        DATE :  29 June 2022
        BOOK :  Savitch_2018_Problem Soving with C++
                Chapter 3: More Flow of Control
-               p 204           
+               p 206           
 
 REQUIREMENTS:
 1. Write a program that computes the cost of a long-distance call. The cost of
