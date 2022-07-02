@@ -5,7 +5,7 @@ practice_02_04_astrological_elements.cpp
        DATE :  28 June 2022
        BOOK :  Savitch_2018_Problem Soving with C++
                Chapter 3: More Flow of Control
-               p 204           
+               p 205           
 
 REQUIREMENTS:
 4. Horoscope Signs of the same Element are most compatible. There are 4 Elements in astrology, and 3 Signs in each:
