@@ -5,7 +5,7 @@ practice_03_06_buoyant_force.cpp
        DATE :  28 June 2022
        BOOK :  Savitch_2018_Problem Soving with C++
                Chapter 3: More Flow of Control
-               p 204           
+               p 205           
 
 
 REQUIREMENTS:
