@@ -5,7 +5,7 @@ project_03_04_blackjack.cpp
        DATE :  29 June 2022
        BOOK :  Savitch_2018_Problem Soving with C++
                Chapter 3: More Flow of Control
-               p 206           
+               p 207           
 
 REQUIREMENTS:
 4. Write a program that scores a blackjack hand. In blackjack, a player
